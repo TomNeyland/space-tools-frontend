@@ -5,4 +5,6 @@
 'use strict';
 
 // loads gulp folder
+global.isProd = false;
+
 require('./gulp');
