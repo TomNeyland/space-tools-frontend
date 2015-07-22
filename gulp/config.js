@@ -22,8 +22,8 @@ module.exports = {
     },
 
     'fonts': {
-        'src': ['public/fonts/**/*'],
-        'dest': 'build/fonts'
+        'src': ['public/**/*'],
+        'dest': 'build'
     },
 
     'views': {
@@ -46,7 +46,7 @@ module.exports = {
     },
 
     'browserify': {
-        'entries': ['./public/main.js'],
+        'entries': ['./public/index.js'],
         'bundleName': 'main.js',
         'sourcemap': true
     },
